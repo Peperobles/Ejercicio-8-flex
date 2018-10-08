@@ -522,6 +522,7 @@ footer{
     border: 1px solid white;
     padding: 10px;
     font-family: sans-serif;
+    max-width: 200px;
 }
 .contacto-general {
     width: 90%;
