@@ -73,37 +73,6 @@ h1 span#logo{
     font-weight: bold;
 }
 
-<<<<<<< HEAD
-=======
-
-/* SHOWCASE */
-.showcase{
-    clear: both;
-    margin: 0;
-    padding: 50px;
-    height: 600px;
-    background: url(images/inicio/otro3.jpg);
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-    color: white;
-    text-align: center;
-}
-.showcase h2{
-    position: relative;
-    top: 42%;
-    font-family: monospace;
-    font-size: 3em;
-}
-.showcase p{
-    position: relative;
-    top: 45%;
-    font-family: monospace;
-    font-size: 1.5em;
-}
-
->>>>>>> master
 /* CONTENIDO */
 .contenido1{
     width: 90%;
@@ -171,12 +140,8 @@ h1 span#logo{
     opacity: 0.9;
     text-align: justify;
     font-family: sans-serif;
-<<<<<<< HEAD
     filter: grayscale(0.5);
     overflow: scroll; 
-=======
-    filter: grayscale(0.5); 
->>>>>>> master
 }
 .contenido2texto:hover{
     filter: grayscale(0);
@@ -198,13 +163,7 @@ h1 span#logo{
 
 
 .ultimasofertas{
-<<<<<<< HEAD
     flex: 20%;
-=======
-    float: right;
-    width: 20%;
-    
->>>>>>> master
     text-align: center;
 }
 #ultimasofertashead{
@@ -235,11 +194,6 @@ h1 span#logo{
 
 /* INSTAGRAM */
 .instagram{
-<<<<<<< HEAD
-=======
-    clear: both;
-    margin-top: 65em;
->>>>>>> master
     background: url(images/inicio/otro4.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -265,10 +219,6 @@ h1 span#logo{
 
 /* NEWSLETTER */
 .newsletter{
-<<<<<<< HEAD
-=======
-    clear: both;
->>>>>>> master
     background-color: #0066cc;
     padding: 10px;
     text-align: center;
@@ -300,24 +250,12 @@ h1 span#logo{
 
 /* FOOTER */
 footer{
-<<<<<<< HEAD
     display: flex;
     flex-wrap: wrap;
     background-color: #595959;
     color: #8c8c8c;
     font-family: monospace;
     font-size: 1.2em;
-=======
-    background-color: #595959;
-    color: #8c8c8c;
-    height: 150px;
-    padding: 1px;
-    font-family: monospace;
-    font-size: 1.2em;
-}
-footer h3{
-    margin: 0;
->>>>>>> master
 }
 .divfooter{
     flex: 30%;
@@ -378,15 +316,9 @@ footer h3{
 
 /* -------------------SOBRE NOSOTROS------------------- */
 .sobrenosotros {
-<<<<<<< HEAD
     width: 80%;
     margin: auto;
     margin-bottom: 2em;
-=======
-    clear: both;
-    width: 80%;
-    margin: auto;
->>>>>>> master
 }
 
 .conocenos {
@@ -421,7 +353,6 @@ footer h3{
 .conocenos-general p{
     text-align: justify;
 }
-<<<<<<< HEAD
 .contenedor-personal{
     display: flex;
     flex-wrap: wrap;
@@ -433,30 +364,16 @@ footer h3{
     align-items: center;
     flex: 20%;
     filter: grayscale(100);
-=======
-
-.conocenos-personal{
-    filter: grayscale(100);
-    float: left;
->>>>>>> master
     border: 1px dotted #ccc;
     margin: 5px;
     background: #f2f2f2;
     padding: 10px;
-<<<<<<< HEAD
-=======
-    width: 22.5%;
->>>>>>> master
 }
 .conocenos-personal:hover{
     filter: grayscale(0);
 }
 
 .conocenos-personal img{
-<<<<<<< HEAD
-=======
-    margin-left: 20px;    
->>>>>>> master
     width: 305px;
     border-radius: 50px;
     
@@ -485,10 +402,6 @@ footer h3{
 
 /* ------------------------------CATALOGO------------------------------ */
 .catalogo {
-<<<<<<< HEAD
-=======
-    clear: both;
->>>>>>> master
     width: 80%;
     margin: auto;
 }
@@ -510,11 +423,8 @@ footer h3{
     padding: 10px;
     font-family: sans-serif;
 }
-<<<<<<< HEAD
 
 
-=======
->>>>>>> master
 .productos-general {
     width: 90%;
     margin: auto;
@@ -530,7 +440,6 @@ footer h3{
 .productos-general p{
     text-align: justify;
 }
-<<<<<<< HEAD
 #contenedor-productos{
     display: flex;
     flex-wrap: wrap;
@@ -541,41 +450,21 @@ footer h3{
 .productos-unidad{
     flex: 20%;
     text-align: center;    
-=======
-
-.productos-unidad{
-    float: left;
->>>>>>> master
     border: 1px dotted #ccc;
     margin: 5px;
     background: white;
     padding: 10px;
-<<<<<<< HEAD
-=======
-    width: 22.5%;
->>>>>>> master
     filter: grayscale(100);
 }
 .productos-unidad:hover{
     filter: grayscale(0);
     background-color: #f2f2f2;
 }
-<<<<<<< HEAD
 .productos-unidad img{   
     width: 305px;
     border-radius: 50px;
 }
 .productos-unidad h3{
-=======
-.productos-unidad img{
-    margin-left: 20px;    
-    width: 305px;
-    border-radius: 50px;
-    
-}
-.productos-unidad h3{
-    text-align: center;
->>>>>>> master
     font-family: sans-serif;
     text-transform: uppercase;
     color: #0066cc;
@@ -585,10 +474,6 @@ footer h3{
     color: #1a1a1a;
 }
 .productos-unidad h4{
-<<<<<<< HEAD
-=======
-    text-align: center;
->>>>>>> master
     font-family: monospace;
     color: #0080ff;
     font-size: 2em;
@@ -600,11 +485,7 @@ footer h3{
     color: #0066cc;
 }
 .boton{
-<<<<<<< HEAD
     margin-bottom: 10px;
-=======
-    margin: 25px 0px 10px 125px;
->>>>>>> master
 }
 .productos-unidad a{
     text-decoration: none;
@@ -616,7 +497,6 @@ footer h3{
     background: #0080ff;
     color: #fff;
 }
-<<<<<<< HEAD
 
 
 /* -----------------------CONTACTO----------------------- */
@@ -624,20 +504,6 @@ footer h3{
     width: 80%;
     margin: auto;
     margin-bottom: 10px;
-=======
-#separador{
-    height: 500px;;
-}
-#separador2{
-    height: 100px;
-}
-
-/* -----------------------CONTACTO----------------------- */
-.contacto {
-    clear: both;
-    width: 80%;
-    margin: auto;
->>>>>>> master
 }
 
 .contactanos {
@@ -663,11 +529,7 @@ footer h3{
     text-align: center;
     background: #f2f2f2;
     font-family: sans-serif;
-<<<<<<< HEAD
     
-=======
-    border-bottom: 1px solid #0066cc;
->>>>>>> master
 }
 
 .contacto-general h3{
@@ -678,7 +540,6 @@ footer h3{
     text-align: justify;
 }
 
-<<<<<<< HEAD
 .contacto-secundario{
     border-top: 1px solid #0066cc;
     display: flex;
@@ -688,13 +549,6 @@ footer h3{
 .contacto-left {
     font-size: 1.5em;
     flex: 20%;
-=======
-.contacto-left {
-    font-size: 1.5em;
-    float: left;
-    width: 30%;
-    margin-left: 100px;
->>>>>>> master
 }
 
 .contacto-left h3{
@@ -708,14 +562,8 @@ footer h3{
 }
 
 .contacto-right{
-<<<<<<< HEAD
     flex: 60%;
     margin-left: 10px;
-=======
-    float: right;
-    width: 50%;
-    margin: 0px 100px 10px 0px;
->>>>>>> master
     color: #0066cc;
     font-family: monospace;
     font-size: 1.5em;
@@ -726,11 +574,7 @@ footer h3{
 .contacto-right form input{
     display: block;
     border: 1px solid #0080ff;
-<<<<<<< HEAD
     width: 80%;
-=======
-    width: 50%;
->>>>>>> master
     margin: 5px;
     padding: 10px 5px;
 }
@@ -738,19 +582,11 @@ footer h3{
     padding: 10px 5px;
     border: 1px solid #0080ff;
     margin: 5px;
-<<<<<<< HEAD
     width: 80%;
 }
 
 #boton-formulario{
     width: 81.5%;
-=======
-    width: 50%;
-}
-
-#boton-formulario{
-    width: 52%;
->>>>>>> master
     padding: 5px 10px;
     color: #0066cc;
     background: white;
