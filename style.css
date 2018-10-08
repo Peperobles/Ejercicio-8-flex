@@ -1,0 +1,762 @@
+/* GLOBAL */
+body{
+    background: #f2f2f2;
+    margin: 0;
+}
+
+/* HEADER INDEX */
+header#index{
+    position: relative;   
+    height: 75vh;
+}
+#contenedor-video{
+    position: absolute;
+    height: 75vh;
+    overflow: hidden;
+    width: 100%;
+    z-index: -1;
+}
+header #contenedor-video #capa-filtro{
+    background-color: rgba(13, 45, 103, 0.6);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#cabecera1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#cabecera2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+    font-family: monospace;
+    color: #0080ff;
+    font-size: 2em;
+}
+#cabecera2 p{
+    color: #0066cc;
+}
+h1{
+
+    font-family: monospace;
+    text-transform: uppercase;
+}
+h1 span#logo{
+    color: #0080ff;
+}
+.menu{
+    font-family: sans-serif; 
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+.menu ul li a{
+    color: #4da6ff;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: #0066cc;
+    text-decoration: underline;
+}
+#actual{
+    color: #0066cc;
+    font-weight: bold;
+}
+
+<<<<<<< HEAD
+=======
+
+/* SHOWCASE */
+.showcase{
+    clear: both;
+    margin: 0;
+    padding: 50px;
+    height: 600px;
+    background: url(images/inicio/otro3.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+}
+.showcase h2{
+    position: relative;
+    top: 42%;
+    font-family: monospace;
+    font-size: 3em;
+}
+.showcase p{
+    position: relative;
+    top: 45%;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+>>>>>>> master
+/* CONTENIDO */
+.contenido1{
+    width: 90%;
+    margin: auto;
+}
+.contenido1 h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 3em;
+    font-weight: normal;
+    color: #0066cc;
+    border-bottom: 1px solid #0066cc
+}
+.contenidoprincipal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.beneficios{
+    flex: 20%;   
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border: 1px dashed #ccc;
+    filter: grayscale(100);
+}
+.beneficios:hover{
+    filter: grayscale(0);
+}
+.beneficios h3{
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 1.5em;
+    color: #0066cc;
+}
+.beneficios p{
+    font-family: sans-serif;
+}
+
+
+/* CONTENIDO 2 */
+
+.contenido2 h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 3em;
+    font-weight: normal;
+    color: #0066cc;
+    border-bottom: 1px solid #0066cc
+}
+
+#contenido2-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenido2texto{
+    flex: 60%;
+    background: url(images/inicio/otro2.jpeg);
+    
+    height: 850px;
+    padding: 10px;
+    opacity: 0.9;
+    text-align: justify;
+    font-family: sans-serif;
+<<<<<<< HEAD
+    filter: grayscale(0.5);
+    overflow: scroll; 
+=======
+    filter: grayscale(0.5); 
+>>>>>>> master
+}
+.contenido2texto:hover{
+    filter: grayscale(0);
+}
+.contenido2texto h3{
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+.contenido2texto h3 span{
+    color: aqua;
+}
+.contenido2texto p{
+    color: white;
+    background: rgba(204, 204, 204, 0.521);
+    padding: 20px;
+}
+
+
+.ultimasofertas{
+<<<<<<< HEAD
+    flex: 20%;
+=======
+    float: right;
+    width: 20%;
+    
+>>>>>>> master
+    text-align: center;
+}
+#ultimasofertashead{
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+    color: #0066cc;
+}
+.ultimasofertas h3{
+    color: #0080ff;
+    font-family: sans-serif;
+}
+.ultimasofertas p{
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 10px;
+}
+.testimonio img{
+    width: 200px;
+    border-radius: 100px;
+}
+.testimonio strong{
+    font-size: 1.2em;
+}
+
+
+/* MUSICA */
+
+/* INSTAGRAM */
+.instagram{
+<<<<<<< HEAD
+=======
+    clear: both;
+    margin-top: 65em;
+>>>>>>> master
+    background: url(images/inicio/otro4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    opacity: 0.8;
+}
+.instagram a{
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.instagram a:hover{
+    background-color: #ccc;
+    text-decoration: underline;
+}
+
+/* NEWSLETTER */
+.newsletter{
+<<<<<<< HEAD
+=======
+    clear: both;
+>>>>>>> master
+    background-color: #0066cc;
+    padding: 10px;
+    text-align: center;
+}
+.newsletter p{
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+.newsletter form{
+    margin-top: 10px;
+    clear: both;
+}
+.newsletter input[type=email]{
+    padding: 10px;
+    border: 1px solid white;
+    width: 300px;
+}
+.newsletter input[type=image]{
+    position: relative;
+    top: 5px;
+    right: 40px;
+    filter: grayscale(0);
+}
+.newsletter input[type=image]:hover{
+    filter: grayscale(100);
+}
+
+
+/* FOOTER */
+footer{
+<<<<<<< HEAD
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #595959;
+    color: #8c8c8c;
+    font-family: monospace;
+    font-size: 1.2em;
+=======
+    background-color: #595959;
+    color: #8c8c8c;
+    height: 150px;
+    padding: 1px;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+footer h3{
+    margin: 0;
+>>>>>>> master
+}
+.divfooter{
+    flex: 30%;
+    padding: 10px;
+}
+.divfooter ul{
+    list-style: none;
+}
+.divfooter a{
+    color: #ccc;
+    text-decoration: none;
+}
+.divfooter span{
+    color: #0080ff;
+    font-weight: normal;
+}
+#footermenu{
+    text-align: center;
+}
+#footermenu ul li{
+    color: #ccc;
+    text-decoration: none;
+}
+#footermenu ul li a:hover{
+    color: white;
+}
+
+#footersocial{
+    text-align: center;
+}
+#footersocial ul li{
+    display: inline;
+    text-align: center;
+}
+#footersocial ul li img{
+    filter: grayscale(100)
+}
+#footersocial ul li img:hover{
+    filter: grayscale(0)
+}
+
+#footerdatos{
+    text-align: center;
+}
+
+/* FOOTERCOPY */
+#footercopy{
+    font-family: monospace;
+    padding: 5px;
+    background: #666666;
+    text-align: center;
+    color: #8c8c8c;
+}
+#footercopy p{
+    margin: 0;
+}
+
+
+/* -------------------SOBRE NOSOTROS------------------- */
+.sobrenosotros {
+<<<<<<< HEAD
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2em;
+=======
+    clear: both;
+    width: 80%;
+    margin: auto;
+>>>>>>> master
+}
+
+.conocenos {
+    text-align: center;
+    height: 200px;
+    background: url(images/personas/conocenos.jpg);
+    background-size: cover;
+    background-position: 50% 40%;
+    opacity: 0.5;
+}
+.conocenos h2 {
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.conocenos-general {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background: #f2f2f2;
+    font-family: sans-serif;
+}
+
+.conocenos-general h3{
+    color: #0066cc;
+}
+
+.conocenos-general p{
+    text-align: justify;
+}
+<<<<<<< HEAD
+.contenedor-personal{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conocenos-personal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 20%;
+    filter: grayscale(100);
+=======
+
+.conocenos-personal{
+    filter: grayscale(100);
+    float: left;
+>>>>>>> master
+    border: 1px dotted #ccc;
+    margin: 5px;
+    background: #f2f2f2;
+    padding: 10px;
+<<<<<<< HEAD
+=======
+    width: 22.5%;
+>>>>>>> master
+}
+.conocenos-personal:hover{
+    filter: grayscale(0);
+}
+
+.conocenos-personal img{
+<<<<<<< HEAD
+=======
+    margin-left: 20px;    
+>>>>>>> master
+    width: 305px;
+    border-radius: 50px;
+    
+}
+.conocenos-personal h3{
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #0066cc;
+    font-size: 2em;
+}
+.conocenos-personal span{
+    color: #1a1a1a;
+}
+.conocenos-personal h4{
+    text-align: center;
+    font-family: monospace;
+    color: #0080ff;
+    font-size: 2em;
+}
+
+.conocenos-personal p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+/* ------------------------------CATALOGO------------------------------ */
+.catalogo {
+<<<<<<< HEAD
+=======
+    clear: both;
+>>>>>>> master
+    width: 80%;
+    margin: auto;
+}
+
+.catalogo-header {
+    text-align: center;
+    height: 200px;
+    background: url(images/scooters/catalogo-header.jpg);
+    background-size: cover;
+    background-position: 50% 15%;
+    opacity: 0.5;
+}
+.catalogo-header h2 {
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-family: sans-serif;
+}
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> master
+.productos-general {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background: #f2f2f2;
+    font-family: sans-serif;
+}
+
+.productos-general h3{
+    color: #0066cc;
+}
+
+.productos-general p{
+    text-align: justify;
+}
+<<<<<<< HEAD
+#contenedor-productos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.productos-unidad{
+    flex: 20%;
+    text-align: center;    
+=======
+
+.productos-unidad{
+    float: left;
+>>>>>>> master
+    border: 1px dotted #ccc;
+    margin: 5px;
+    background: white;
+    padding: 10px;
+<<<<<<< HEAD
+=======
+    width: 22.5%;
+>>>>>>> master
+    filter: grayscale(100);
+}
+.productos-unidad:hover{
+    filter: grayscale(0);
+    background-color: #f2f2f2;
+}
+<<<<<<< HEAD
+.productos-unidad img{   
+    width: 305px;
+    border-radius: 50px;
+}
+.productos-unidad h3{
+=======
+.productos-unidad img{
+    margin-left: 20px;    
+    width: 305px;
+    border-radius: 50px;
+    
+}
+.productos-unidad h3{
+    text-align: center;
+>>>>>>> master
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #0066cc;
+    font-size: 2em;
+}
+.productos-unidad span{
+    color: #1a1a1a;
+}
+.productos-unidad h4{
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> master
+    font-family: monospace;
+    color: #0080ff;
+    font-size: 2em;
+}
+
+.productos-unidad p{
+    text-align: justify;
+    font-family: sans-serif;
+    color: #0066cc;
+}
+.boton{
+<<<<<<< HEAD
+    margin-bottom: 10px;
+=======
+    margin: 25px 0px 10px 125px;
+>>>>>>> master
+}
+.productos-unidad a{
+    text-decoration: none;
+    color: #0066cc;
+    border: 1px solid #0066cc;
+    padding: 10px;
+}
+.productos-unidad a:hover{
+    background: #0080ff;
+    color: #fff;
+}
+<<<<<<< HEAD
+
+
+/* -----------------------CONTACTO----------------------- */
+.contacto {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+=======
+#separador{
+    height: 500px;;
+}
+#separador2{
+    height: 100px;
+}
+
+/* -----------------------CONTACTO----------------------- */
+.contacto {
+    clear: both;
+    width: 80%;
+    margin: auto;
+>>>>>>> master
+}
+
+.contactanos {
+    text-align: center;
+    height: 200px;
+    background: url(images/contacto/contacto-header.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+    opacity: 0.5;
+}
+.contactanos h2 {
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.contacto-general {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background: #f2f2f2;
+    font-family: sans-serif;
+<<<<<<< HEAD
+    
+=======
+    border-bottom: 1px solid #0066cc;
+>>>>>>> master
+}
+
+.contacto-general h3{
+    color: #0066cc;
+}
+
+.contacto-general p{
+    text-align: justify;
+}
+
+<<<<<<< HEAD
+.contacto-secundario{
+    border-top: 1px solid #0066cc;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacto-left {
+    font-size: 1.5em;
+    flex: 20%;
+=======
+.contacto-left {
+    font-size: 1.5em;
+    float: left;
+    width: 30%;
+    margin-left: 100px;
+>>>>>>> master
+}
+
+.contacto-left h3{
+    color: #0066cc;
+    font-family: monospace;
+    border-bottom: 1px dotted #0080ff;
+}
+
+.contacto-left p{
+    font-family: sans-serif;
+}
+
+.contacto-right{
+<<<<<<< HEAD
+    flex: 60%;
+    margin-left: 10px;
+=======
+    float: right;
+    width: 50%;
+    margin: 0px 100px 10px 0px;
+>>>>>>> master
+    color: #0066cc;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+.contacto-right h3{
+    border-bottom: 1px dotted #0080ff;
+}
+.contacto-right form input{
+    display: block;
+    border: 1px solid #0080ff;
+<<<<<<< HEAD
+    width: 80%;
+=======
+    width: 50%;
+>>>>>>> master
+    margin: 5px;
+    padding: 10px 5px;
+}
+.contacto-right form textarea {
+    padding: 10px 5px;
+    border: 1px solid #0080ff;
+    margin: 5px;
+<<<<<<< HEAD
+    width: 80%;
+}
+
+#boton-formulario{
+    width: 81.5%;
+=======
+    width: 50%;
+}
+
+#boton-formulario{
+    width: 52%;
+>>>>>>> master
+    padding: 5px 10px;
+    color: #0066cc;
+    background: white;
+    border: 1px solid #0080ff;
+}
+#boton-formulario:hover{
+    background: #0066cc;
+    color: white;
+}
