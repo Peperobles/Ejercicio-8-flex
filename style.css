@@ -7,11 +7,15 @@ body{
 /* HEADER INDEX */
 header#index{
     position: relative;   
-    height: 75vh;
+    min-height: 75vh;
+}
+.logo a{
+    text-decoration: none;
+    color: inherit;
 }
 #contenedor-video{
     position: absolute;
-    height: 75vh;
+    height: 100%;
     overflow: hidden;
     width: 100%;
     z-index: -1;
@@ -134,14 +138,12 @@ h1 span#logo{
 .contenido2texto{
     flex: 60%;
     background: url(images/inicio/otro2.jpeg);
-    
     height: 850px;
     padding: 10px;
     opacity: 0.9;
     text-align: justify;
     font-family: sans-serif;
-    filter: grayscale(0.5);
-    overflow: scroll; 
+    filter: grayscale(0.5); 
 }
 .contenido2texto:hover{
     filter: grayscale(0);
@@ -378,8 +380,11 @@ footer{
 }
 .conocenos-personal:hover{
     filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 2;
 }
-
 .conocenos-personal img{
     width: 305px;
     border-radius: 50px;
@@ -628,4 +633,183 @@ footer{
 }
 .contacto-social a:hover{
     filter: grayscale(0);
+}
+
+/* TRANSICION ANIMADA */
+.myBounceDiv { 
+    -moz-animation:bounce .40s ease-out;  
+    -webkit-animation:bounce .40s ease-out;
+    animation-duration: 1s;
+} 
+
+@-moz-keyframes bounce {
+    0%{ -moz-transform:scale(0); opacity:0;}
+    50%{ -moz-transform:scale(1.3); opacity:0.4; }
+    75%{ -moz-transform:scale(0.9); opacity:0.7;}
+    100%{ -moz-transform:scale(1); opacity:1;}
+}
+
+@-webkit-keyframes bounce {
+    0%{ -webkit-transform:scale(0); opacity:0;}
+    50%{ -webkit-transform:scale(1.3); opacity:0.4;}
+    75%{ -webkit-transform:scale(0.9); opacity:0.7;}
+    100%{ -webkit-transform:scale(1); opacity:1;}
+}
+
+/* ------------------------------ MEDIA ------------------------------  */ 
+@media only screen and (max-width: 1024px){
+    #footersocial ul li img{
+        filter: grayscale(0);
+    }
+    .beneficios{
+        filter: grayscale(0);
+    }
+    .conocenos-personal{
+        filter: grayscale(0);
+    }
+    .conocenos-personal:hover{
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@media only screen and (max-width: 946px) {
+    /* GLOBAL */
+    .divfooter{
+        flex: 45%;
+        text-align: center;       
+    }
+    #footermenu ul, #footersocial ul{
+        padding: 0;
+    }
+    #footersocial ul li img{
+        filter: grayscale(0);
+    }
+    /* INDEX */
+    #contenido2-contenedor{
+        display: block;
+    }
+    .ultimasofertas{
+        margin-top: 20px;
+        display: flex;
+    }
+    .beneficios{
+        filter: grayscale(0);
+    }
+    /* CONTACTO */
+    .contacto-secundario{
+        flex-direction: column;
+    }
+    .contacto-left, .contacto-right, .contacto-social{
+        font-size: 1.25em;
+        margin: 0;
+    }
+    .contacto-social{
+        display:none;
+    }
+    /* SOBRE NOSOTROS */
+    .conocenos-personal{
+        filter: grayscale(0);
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* GLOBAL */
+    body{
+        box-sizing: border-box;
+    }
+    header{
+        text-align: center;
+    }
+    #cabecera1{
+        flex-direction: column;
+    }
+    .menu ul{
+        padding: 0;
+        margin: 0px 5px;
+    }
+    .menu ul li{
+        display: block;
+        margin: 5px 0;
+        border: 1px solid #fff;
+        padding: 5px;
+        text-align: center;
+        background: rgba(0, 102, 204,0.1);
+    }
+    .menu ul li:hover{
+        background: #ccc;
+    }
+    .instagram {
+        height: 20%;
+    }
+    .newsletter{
+        text-align: center;
+    }
+    .newsletter input[type=email]{
+        width: 75%;
+    }
+    .divfooter{
+        flex: 100%;
+        text-align: center;       
+    }
+    #footermenu ul, #footersocial ul{
+        padding: 0;
+    }
+
+    /* INDEX */
+    #cabecera2 {
+        margin-top: 10%;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 20px; 
+    }
+    .contenido1 h2, .contenido2 h2{
+        font-size: 2.5em;
+    } 
+    .contenido2texto{
+        background: #0066cc;
+        overflow: hidden;
+        height: 30%;
+    }
+    .ultimasofertas{
+        display: flex;
+        flex-direction: column;
+        flex: 100%;
+    }
+    .testimonio{
+        margin-top: 5%;
+    }
+    audio{
+        width: 100%;
+    }
+    /* CATALOGO */
+    .productos-unidad{
+        margin: 5px 5px;
+    }
+    .productos-unidad h3{
+        font-size: 1.5em;
+    }
+    .productos-unidad h4{
+        font-size: 1.5em;
+    }
+    .productos-unidad img{
+        width: 200px;
+    }
+
+    /* SOBRE NOSOTROS */
+    .conocenos-personal img{
+        width: 200px;
+    }
+
+    /* CONTACTO */
+    .contacto-secundario{
+        flex-direction: column;
+    }
+    .contacto-left, .contacto-right, .contacto-social{
+        font-size: 1em;
+        margin: 0;
+    }
+    .contacto-social{
+        display:none;
+    }
+
 }
