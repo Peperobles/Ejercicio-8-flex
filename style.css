@@ -416,7 +416,6 @@ footer{
     width: 90%;
     margin: auto;
     text-align: center;
-    background: #f2f2f2;
     font-family: sans-serif;
 }
 .productos-general h3{
@@ -429,8 +428,6 @@ footer{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    align-items: center;
-    justify-content: center;
     border-top: 1px solid #0066cc;
     margin-top: 50px;
 }
@@ -632,6 +629,9 @@ footer{
         -ms-transform: scale(1);
         transform: scale(1);
     }
+    .productos-unidad{
+        filter: grayscale(0);
+    }
 }
 @media only screen and (max-width: 946px) {
     /* GLOBAL */
@@ -754,12 +754,10 @@ footer{
     .productos-unidad img{
         width: 200px;
     }
-
     /* SOBRE NOSOTROS */
     .conocenos-personal img{
         width: 200px;
     }
-
     /* CONTACTO */
     .contacto-secundario{
         flex-direction: column;
@@ -771,5 +769,4 @@ footer{
     .contacto-social{
         display:none;
     }
-
 }
